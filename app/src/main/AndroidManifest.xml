@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game_tra_loi_cau_hoi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_Cap_nhat_tai_khoan"></activity>
+        <activity android:name=".LinhVuc" />
+        <activity android:name=".DangNhap" />
+        <activity android:name=".BangXepHang" />
+        <activity android:name=".LichSuChoi" />
+        <activity android:name=".TroChoi" />
+        <activity android:name=".MuaCredit" />
+        <activity android:name=".activity_Quan_Ly_Tai_Khoan" />
+        <activity android:name=".activity_Dang_ki" />
+        <activity android:name=".activity_Quen_mat_khau" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
